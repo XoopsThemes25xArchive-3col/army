@@ -1,0 +1,105 @@
+/* --- User bar --- */
+#xo_banner {
+  display : 						block;
+  width: 							349px;
+  height: 							90px;
+  position : 						relative;
+  float : 							right;
+  top : 								4px;
+  right : 							110px;
+  color : 							#C0C0C0;
+  font-size : 						1em;
+}
+
+/* --- Submit Button ---- */
+#xo-userbar button {
+	position : 			 			relative;
+	top : 				 			4px;
+	background-color : 			transparent;
+	background-image :			none;
+	color : 							inherit;
+	border : 						none;
+}
+#xo-userbar button img {
+	width : 							16px;
+	height : 						16px;
+}
+#xo-userbar button:hover {
+	border : 						0 !important;
+}
+#xo-userbar img {
+	width : 							16px;
+	height : 						16px;
+}
+#xo-userbar input {
+	width : 							102px;
+	color : 							#333333;
+}
+#xo-userbar input.uname {
+  background : 					#fff url("../icons/users/pseudo.gif") no-repeat left;
+  padding-left : 					18px;
+}
+#xo-userbar input.password {
+  background : 					#fff url("../icons/users/password.gif") no-repeat left;
+  padding-left :					118px;
+}
+/* --- Register Link ---- */
+#xo-userbar p.register {
+	position : 							relative;
+/*	top : 								40px; */
+	font-size : 						.9em;
+}
+/* --- User Menu ---- */
+#xo-userbar .usermenu {
+  position : 						relative;
+  top : 								48px;
+  right : 							18px;
+}
+#xo-userbar p.welcome {
+  padding-bottom : 				4px;
+  font-size : 						.9em;
+  color: 							white;
+}
+#xo-userbar a.uname {
+	background-color : 			inherit;
+	color : 							#FFFFFF;
+	font-weight : 					bold;
+	font-size: 						12px;
+}
+
+/* Navigation menu */
+#xo-canvas-globalnav {
+	background-color: 			transparent;
+	margin: 							0;
+
+}
+* html #xo-canvas-globalnav {
+	margin-left: 					163px;
+}
+
+#xo-canvas-globalnav ul {
+	float: 							right;
+	height: 							26px;
+	margin: 							0px;
+}
+
+#xo-canvas-globalnav li {
+	display: 						inline;
+}
+
+#xo-canvas-globalnav li a {
+	float: 							left;
+	text-decoration: 				none;
+	text-align: 					right;
+	color: 							#000000;
+	font-weight: 					normal;
+	display: 						block;
+	padding-right: 				14px;
+	padding-left: 					14px;
+}
+
+#xo-canvas-globalnav li a:hover {
+	color: 							#333333;
+	border-bottom: 				6px solid #FF7C00;
+	background-color: 			transparent;
+}
